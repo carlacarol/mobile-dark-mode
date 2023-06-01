@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#container {
+    width: 360px;
+    height: 712px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 112px;
+
+}
+
+profile p {
+    font-weight: 500;
+    line-height: 24px;
+}
